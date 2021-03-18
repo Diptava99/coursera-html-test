@@ -1,0 +1,139 @@
+body
+{
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+}
+/** NAVBAR **/
+#header-nav
+{
+  background-color: #c5c6d0;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0px;
+
+}
+.navbar-brand
+{
+  padding-top: 25px;
+}
+.navbar-brand h1
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #0000;
+  font-size: 2em;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+  text-decoration: none;
+}
+h1
+{
+  text-align: center;
+  color : #333;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #333;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list
+{
+  font-size: 1.8em;
+  color : #ccc;
+}
+#collapsable-nav li
+{
+ text-align : center;
+}
+#collapsable-nav hr
+{
+  border-top: 1px solid #333;
+}
+#collapsable-nav ul
+{
+   background-color: #fff;
+}
+
+/* module 2 */
+#main-content div
+{
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 10px solid white;
+  margin-bottom: 50px;
+  height : 770px ;
+}
+#main-content section
+{
+  background-color: #c5c6d0;
+
+}
+h2
+{
+  margin-block-start : 0em;
+  margin-block-end : 0em;
+  margin-bottom: 10px;
+  width : 130px;
+  border: 1px solid black;
+  position : absolute;
+  top : 0;
+  right: 0;
+  color: #333
+}
+p
+{
+  width: 95%;
+  height: 150px;
+  margin-top: 40px;
+  padding-right: 10px;;
+  padding-left: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color : #333
+}
+section
+  {
+    border: 1px solid black;
+    width: 100%;
+    height : inherit;
+
+  }
+  @media (min-width: 1200px)
+   {
+    #main-content div
+
+    {
+    height : 850px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px)
+   {
+    #main-content div
+
+    {
+    height : 700px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px)
+  {  #main-content div
+    {
+      height: 450px;
+    }
+  }
+@media (max-width: 767px)
+{  #main-content div
+  {
+    height: 500px;
+  }
+}
