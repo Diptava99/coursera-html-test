@@ -43,6 +43,8 @@ body {
 #cover {
   background-color: #fdfd96;
   height: 560px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 #pageone{
   background-color: #77dd77;
