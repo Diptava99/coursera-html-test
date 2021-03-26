@@ -43,14 +43,15 @@ body {
 #cover {
   background-color: #fdfd96;
   height: 560px;
-  padding-right: 0px;
-  padding-bottom: 0px;
+  padding: 10px;
 }
 #pageone{
   background-color: #77dd77;
   height: 560px;
+  padding: 10px;
 }
 #pagetwo{
   background-color: #ADD8E6;
   height: 560px;
+  padding: 10px;
 }
